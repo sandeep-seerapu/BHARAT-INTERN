@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 10px 0;
+            border-bottom: 3px solid sandybrown;
+        }
+
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        header nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        header nav ul li a:hover {
+            color: sandybrown;
+        }
+        #showcase {
+            background: black;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        #showcase h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 18px;
+        }
+        #main {
+            padding: 20px 0;
+        }
+        #profile {
+            padding: 20px 0;
+        }
+        #profile h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            display: block;
+            margin: 0 auto 20px;
+            border: 4px solid sandybrown;
+        }
+        #profile p {
+            text-align: center;
+        }
+        #skills {
+            padding: 20px 0;
+        }
+        #skills h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #skills .box {
+            background: gainsboro;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        #skills .box h3 {
+            margin-top: 0;
+        }
+        #Achievements {
+            padding: 20px 0;
+        }
+        #Achievements h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #Achievements .box {
+            background: whitesmoke;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        #Achievements .box h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: sandybrown;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            header #branding,
+            header nav {
+                float: none;
+                text-align: center;
+            }
+
+            header nav ul {
+                padding-top: 10px;
+            }
+
+            header nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>My Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Showcasing My Skills and Achievements</p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <section id="profile">
+                <h2>Profile</h2>
+                <img src="profile picture.jpg" alt="Profile Picture">
+                <p>Hello everyone! Myself sandeep.Dynamic Python and Web Developer with a solid foundation in Python programming and web development,adept in HTML,CSS,and proficient in data structures.Academic excellence reflected in a high GPA in Information and Technology.Eager to contribute to pioneering business solutions by harnessing the power of technology. </p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="box">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS</p>
+                </div>
+                <div class="box">
+                    <h3>Data analytics</h3>
+                    <p>SQL</p>
+                </div>
+                <div class="box">
+                    <h3>programming</h3>
+                    <p>Python,java,c</p>
+                </div>
+                <div class="box">
+                    <h3>Other Skills</h3>
+                    <p>Problem Solving, Communication</p>
+                </div>
+            </section>
+
+            <section id="Achievements">
+                <h2>Achievements</h2>
+                <div class="box">
+                    <h3>Secured Gold badge in C on Hackerrank</h3>
+                    <p>Delighted to have achieved a Gold Badge in C on HackerRank,symbolizing my mastery and adept problem-solving process.</p>
+                </div>
+                <div class="box">
+                    <h3>Secured a certificate in java from Hackerrank</h3>
+                    <p>Acquired Java certificate from HackerRank, reflecting competency and problem-solving proficiency in Java programming</p>
+                </div>
+                <div class="box">
+                    <h3>Secured a course completion certificate in Python from Cisco</h3>
+                    <p>This accomplishment not only underscores my expertise but also highlights my dedication to mastering the craft of programming.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <footer>
+        <section id="contact">
+            <p>Contact : <a href="mailto:seerapusaisandeep@gmail.com">seerapusaisandeep@gmail.com</a></p>
+        </section>
+    </footer>
+</body>
+</html>
